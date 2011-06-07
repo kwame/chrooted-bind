@@ -1,0 +1,17 @@
+$TTL    300
+homelinux.org.       IN SOA    tatooine.homelinux.org. mfalcon.homelinux.org. (
+                2010092104      ; serial (d. adams)
+                3H              ; refresh
+                15M             ; retry
+                1W              ; expiry
+                5M )            ; minimum TTL
+
+homelinux.org.  IN NS           tatooine.homelinux.org.
+homelinux.org.  IN NS           mfalcon.homelinux.org.
+
+router.homelinux.org.          IN A    192.168.50.1
+obiwan.homelinux.org.          IN A    192.168.50.105
+tatooine.homelinux.org.	       IN A    192.168.50.120
+ewook.homelinux.org.           IN A    192.168.50.121
+porter.homelinux.org.          IN A    192.168.50.122
+test.homelinux.org.            IN A    192.168.50.123

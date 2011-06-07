@@ -1,0 +1,24 @@
+# Start of rndc.conf
+key "rndckey" {
+	algorithm hmac-md5;
+	secret "BfXZaQ6ncIxrH4iPVrRwiQ==";
+};
+
+options {
+	default-key "rndckey";
+	default-server 127.0.0.1;
+	default-port 953;
+};
+# End of rndc.conf
+
+# Use with the following in named.conf, adjusting the allow list as needed:
+# key "rndckey" {
+# 	algorithm hmac-md5;
+# 	secret "BfXZaQ6ncIxrH4iPVrRwiQ==";
+# };
+# 
+# controls {
+# 	inet 127.0.0.1 port 953
+# 		allow { 127.0.0.1; } keys { "rndckey"; };
+# };
+# End of named.conf

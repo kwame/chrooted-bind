@@ -1,0 +1,15 @@
+$TTL	300
+50.168.192.in-addr.arpa. 	IN SOA	tatooine.homelinux.org.	mfalcon.homelinux.org. (
+			2010092001
+			10800
+			900
+			604800
+			3600 )
+
+50.168.192.in-addr.arpa.	IN NS tatooine.homelinux.org.
+
+1.50.168.192.in-addr.arpa. IN PTR router.homelinux.org.
+105.50.168.192.in-addr.arpa. IN PTR obiwan.homelinux.org.
+120.50.168.192.in-addr.arpa. IN PTR tatooine.homelinux.org.
+121.50.168.192.in-addr.arpa. IN PTR ewook.homelinux.org.
+122.50.168.192.in-addr.arpa. IN PTR porter.homelinux.org.
